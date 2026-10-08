@@ -21,11 +21,17 @@ pip install flet spotipy
 
 ⚙️ Configuração do Spotify
 Para que os botões de música funcionem, você precisa conectar o aplicativo à sua conta do Spotify for Developers:
+
 Acesse o Spotify Developer Dashboard e crie um novo Web App.
+
 Nas configurações do App no Spotify, defina o Redirect URI exatamente como: http://127.0.0.1:8888.
+
 Copie o seu Client ID e Client Secret.
+
 Abra o código fonte do A.T.L.A.S. e cole as suas chaves na seção de configuração do Spotify:
+
 MEU_CLIENT_ID = "COLA_O_TEU_CLIENT_ID_AQUI"
+
 MEU_CLIENT_SECRET = "COLA_O_TEU_CLIENT_SECRET_AQUI" 
 
 
